@@ -1,36 +1,32 @@
-# Les 3 Orchstration Demo
+# Container Orchstration Demo
 <walkthrough-directive-name name="Markus Keuter">
 </walkthrough-directive-name>
 
-**Duur van de oefening**: ongeveer 15 minuten
+**Duration**: 15 minutes
 
-Doel van deze demo is om te laten zien hoe je een simpele web-applicatie als:
-- een container uitrolt op een Kubernetes orchestration platform, 
-- hoe je de applicatie schaalt en 
-- hoe je een nieuwe versie uitrolt van de applicatie.
+Goal of this demo is to publish a simpel web-application by:
+- Building a container image,
+- deploying it on a Kubernetes orchestration platform, 
+- demonstrate how it scales, 
+- demonstrate how to create a new version of your container afstand
+- demonstrate how to deploy it in a green/blue deployment scenario.
 
-Om te beginnen zet je eerst alle instellingen die noodzakelijk zijn op.
-
-Deze tutorial gaat uit van het project quint-demo, mocht je deze tutorial 
-onafhankelijk van de training volgen, selecteer dan een eigen project.
-
-Klik op het shell icoontje en daarna op **ENTER**:
-
+To get started click on the shell icon [>_] to copy the text to your shell and press **ENTER**:
 ```bash
 gcloud config set project quint-demo
 ```  
+Press **ENTER**
 
-Stel de juiste compute zone in (Eemshaven NL) 
+Select the correct zone: 
 ```bash
 gcloud config set compute/zone europe-west4-b
 ```  
 
-**ENTER**
+Press **ENTER**
 
-## Opzetten Kubectl
-Kubectl is de controller van Kubernetes, met deze controller kan je via de API van 
-Kubernetes, op afstand, taken laten uitvoeren op het Kubernetes cluster
-
+## Install Kubectl
+Kubectl is the Kubernetes controller we'll be using to connect to the GKE hosted Kubernetes cluster. To install kubectl 
+execute the following command in your shell by clicking the [>_] icon:
 ```bash
 gcloud components install kubectl
 ```
