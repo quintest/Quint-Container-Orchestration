@@ -12,5 +12,5 @@ The complete tutorial (Orchestration and Docker demo):
 
 
 [![Open this project in Cloud
-Shell](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/quintest/cloudshell-tutorials-summerschool.git&page=editor&tutorial=orchestration/tutorial.md)
+Shell](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/quintest/Quint-Container-Orchestration.git&page=editor&tutorial=tutorial.md)
 
